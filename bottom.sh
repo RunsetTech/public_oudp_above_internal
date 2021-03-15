@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -O https://raw.githubusercontent.com/RunsetTech/openvpn_instal_15sub/main/openvpn-install.sh
+curl -O https://raw.githubusercontent.com/RunsetTech/public_oudp_internal/main/openvpn-install.sh
 chmod +x openvpn-install.sh
 export DEBIAN_FRONTEND=noninteractive
 
@@ -45,7 +45,7 @@ EOF
 cd ..
 
 cat > ghost.sh <<EOF
-sudo node /home/ubuntu/roller/index.js
+sudo node /home/itrays/roller/index.js
 EOF
 
 sudo cp ghost.sh /usr/bin/ghost.sh
